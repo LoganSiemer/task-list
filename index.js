@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" type="text/css" href="index.js">
-	<link rel="stylesheet" type="text/css" href="index.css">
-</head>
-<body>
-
-<div id="myDIV" class="header">
-  <h2 style="margin:5px">My To Do List</h2>
-  <input type="text" id="myInput" placeholder="Title...">
-  <span onclick="newElement()" class="addBtn">Add</span>
-</div>
-
-<ul id="myUL">
-</ul>
-</body>
-<script>
-	// Create a "close" button and append it to each list item
+// Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
@@ -71,5 +53,3 @@ function newElement() {
     }
   }
 }
-</script>
-</html>
